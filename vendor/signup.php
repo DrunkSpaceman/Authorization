@@ -30,10 +30,8 @@
         $_SESSION['message'] = 'Регистрация прошла успешно!';
         header('Location: ../index.php');
 
-
     } else {
         $_SESSION['message'] = 'Пароли не совпадают';
         header('Location: ../register.php');
     }
-
 ?>
